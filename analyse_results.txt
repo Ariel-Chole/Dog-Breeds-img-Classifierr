@@ -35,7 +35,7 @@ N Images            :  40
 N Dog Images        :  30
 N Not-Dog Images    :  10
 
-After comparing the resuls, I realized that even though all three models give 100% of correct classification on uploaded pictures, for pet images it gives
+After comparing the resuls, I realized that even though all three models give 100% of correct classification on uploaded pictures, for pet images they gives
 For "CNN Model Architecture VGG"
 pct_match: 87.5
 pct_correct_dogs: 100.0
@@ -49,3 +49,10 @@ pct_correct_breed: 80.0
 pct_correct_notdogs: 100.0
 
 For"CNN Model Architecture RESNET"
+pct_match: 82.5
+pct_correct_dogs: 100.0
+pct_correct_breed: 90.0
+pct_correct_notdogs: 90.0
+
+By viewing the result, we can easily know that VGG is the best architecture model for classification of pet images compared to others. Therefore, when we run run_models_batch.sh, classification percentage, especially for pct_match and pct_correct_breed, decrease and all of them can classify whether it is a dog with 100%. 
+
