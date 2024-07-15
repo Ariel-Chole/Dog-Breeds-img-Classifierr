@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/get_input_args.py
 #                                                                             
-# PROGRAMMER: Min Htet Myet
-# DATE CREATED: 29-10-2023                     
+# PROGRAMMER: Chit Zin Win
+# DATE CREATED: 15-7-2024                    
 # REVISED DATE: 
 # PURPOSE: Create a function that retrieves the following 3 command line inputs 
 #          from the user using the Argparse Python module. If the user fails to 
