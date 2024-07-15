@@ -37,4 +37,9 @@ N Not-Dog Images    :  10
 
 After comparing the resuls, I realized that even though all three models give 100% of correct classification on uploaded pictures, for pet images it gives
 For "CNN Model Architecture VGG"
+pct_match: 87.5
+pct_correct_dogs: 100.0
+pct_correct_breed: 93.33333333333333
+pct_correct_notdogs: 100.0
 
+For "CNN Model Architecture ALEXNET"
