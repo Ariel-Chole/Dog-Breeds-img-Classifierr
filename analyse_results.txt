@@ -35,5 +35,6 @@ N Images            :  40
 N Dog Images        :  30
 N Not-Dog Images    :  10
 
-After comparing the resuls, I realized that 
+After comparing the resuls, I realized that even though all three models give 100% of correct classification on uploaded pictures, for pet images it gives
+For "CNN Model Architecture VGG"
 
