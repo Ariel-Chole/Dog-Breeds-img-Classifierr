@@ -19,3 +19,12 @@ pct_correct_dogs: 100.0
 pct_correct_breed: 100.0
 pct_correct_notdogs: 100.0
 
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+pct_match: 100.0
+pct_correct_dogs: 100.0
+pct_correct_breed: 100.0
+pct_correct_notdogs: 100.0
