@@ -30,4 +30,10 @@ pct_correct_breed: 100.0
 pct_correct_notdogs: 100.0
 
 
-When I compare these results with the results of the program produced, 
+Then I compared these results with the results from running run_models_batch.sh for all architectures based on
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+
+After comparing the resuls, I realized that 
+
