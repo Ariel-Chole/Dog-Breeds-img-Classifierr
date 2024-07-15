@@ -1,0 +1,2 @@
+After running the check_images.py gives the following results based on each CNN model architecture,
+  
