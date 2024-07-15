@@ -43,3 +43,9 @@ pct_correct_breed: 93.33333333333333
 pct_correct_notdogs: 100.0
 
 For "CNN Model Architecture ALEXNET"
+pct_match: 75.0
+pct_correct_dogs: 100.0
+pct_correct_breed: 80.0
+pct_correct_notdogs: 100.0
+
+For"CNN Model Architecture RESNET"
