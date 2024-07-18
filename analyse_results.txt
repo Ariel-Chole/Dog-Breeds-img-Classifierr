@@ -61,3 +61,5 @@ Comparing the result,
 When we run our classifier for 40 per images, we can note that the classifier can't predict 100% precisely for all images. It produces wrong names for some dog breed. 
 But when we use the classifier to classify our uploaded four images, it makes predictions with the precision of 100%.
 For the uploaded images, the classifier can predict the non-dog images precisely (frog and bucket) 
+
+Therefore, we can't easily know which architecture model is more precise than that of others based on the results of run_models_batch_uploaded.sh. However, the results of run_models_batch.sh can tell us. 
