@@ -55,11 +55,12 @@ pct_correct_dogs: 100.0
 pct_correct_breed: 90.0
 pct_correct_notdogs: 90.0
 
-By viewing the result, we can easily know that VGG is the best architecture model for classification of pet images compared to others. Therefore, when we run run_models_batch.sh, classification percentage, especially for pct_match and pct_correct_breed, decrease and all of them can classify whether it is a dog with 100%. 
 
 Comparing the result, 
-When we run our classifier for 40 per images, we can note that the classifier can't predict 100% precisely for all images. It produces wrong names for some dog breed. 
+When we run our classifier for 40 pet images, we can note that the classifier can't predict 100% precisely for all images. It produces wrong names for some dog breed. 
 But when we use the classifier to classify our uploaded four images, it makes predictions with the precision of 100%.
-For the uploaded images, the classifier can predict the non-dog images precisely (frog and bucket) 
+For the uploaded images, the classifier can even predict the non-dog images precisely (frog and bucket) 
 
-Therefore, we can't easily know which architecture model is more precise than that of others based on the results of run_models_batch_uploaded.sh. However, the results of run_models_batch.sh can tell us. 
+Therefore, we can't easily know which architecture model is more precise than that of others based on the results of run_models_batch_uploaded.sh. However, the results of run_models_batch.sh can tell us that VGG is the best architecture model for classification of pet images compared to others. VGG models can predict pc_match, pct_correct_dogs, pct_correct_breed and pct_correct_notdogs with nearly 90% or 100% precision.
+
+The check_images.py addressed the four uploaded images as bucket, frog, dog and dog in accordance with the right jpg images.
